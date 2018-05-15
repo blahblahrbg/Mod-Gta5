@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Menu.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>menu\gui.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Globalshhh.cpp">
+      <Filter>menu\gui.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls.cpp">
+      <Filter>menu\gui.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>menu\gui.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Backtracking Rage.cpp">
+      <Filter>ragebot\backtrack\backtrack.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="LagComp.cpp">
+      <Filter>ragebot\backtrack\backtrack.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="RageBot.cpp">
+      <Filter>ragebot\ragebot.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Autowall.cpp">
+      <Filter>ragebot\autowall</Filter>
+    </ClCompile>
+    <ClCompile Include="Resolver.cpp">
+      <Filter>ragebot\resolver\resolver.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiAntiAim.cpp">
+      <Filter>ragebot\resolver\resolver.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>visuals\esp</Filter>
+    </ClCompile>
+    <ClCompile Include="damageindicator.cpp">
+      <Filter>visuals\damage</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager.cpp">
+      <Filter>visuals\render</Filter>
+    </ClCompile>
+    <ClCompile Include="Visual.cpp">
+      <Filter>visuals\crosshair</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLMain.cpp">
+      <Filter>main\dllmain</Filter>
+    </ClCompile>
+    <ClCompile Include="Dumping.cpp">
+      <Filter>main\dump</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVars.cpp">
+      <Filter>main\netvar</Filter>
+    </ClCompile>
+    <ClCompile Include="Offsets.cpp">
+      <Filter>main\netvar</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVarManager.cpp">
+      <Filter>main\netvar</Filter>
+    </ClCompile>
+    <ClCompile Include="INJ\ReflectiveLoader.cpp">
+      <Filter>main\reflective</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>main\other</Filter>
+    </ClCompile>
+    <ClCompile Include="Chams.cpp">
+      <Filter>visuals\chams</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces.cpp">
+      <Filter>offsets\Entities/interface</Filter>
+    </ClCompile>
+    <ClCompile Include="SpoofedConvar.cpp">
+      <Filter>offsets\spoofed</Filter>
+    </ClCompile>
+    <ClCompile Include="CRC32.cpp">
+      <Filter>offsets\engine/crc32</Filter>
+    </ClCompile>
+    <ClCompile Include="MathFunctions.cpp">
+      <Filter>offsets\other</Filter>
+    </ClCompile>
+    <ClCompile Include="UTIL Functions.cpp">
+      <Filter>offsets\other</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks.cpp">
+      <Filter>hooks\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="MetaInfo.cpp">
+      <Filter>hooks\info</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>hooks\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="MiscHacks.cpp">
+      <Filter>misc\mischacks</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>misc\includes</Filter>
+    </ClCompile>
+    <ClCompile Include="LegitBot.cpp">
+      <Filter>legitbot</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Menu.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="skeet.h">
+      <Filter>menu\gui.h</Filter>
+    </ClInclude>
+    <ClInclude Include="GUISPEC.h">
+      <Filter>menu\gui.h</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>menu\gui.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Globalshhh.h">
+      <Filter>menu\gui.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls.h">
+      <Filter>menu\gui.h</Filter>
+    </ClInclude>
+    <ClInclude Include="backtracking.h">
+      <Filter>ragebot\backtrack\backtrack.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Backtracking Rage.h">
+      <Filter>ragebot\backtrack\backtrack.h</Filter>
+    </ClInclude>
+    <ClInclude Include="LagComp.h">
+      <Filter>ragebot\backtrack\backtrack.h</Filter>
+    </ClInclude>
+    <ClInclude Include="RageBot.h">
+      <Filter>ragebot\ragebot.cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="Autowall.h">
+      <Filter>ragebot\autowall</Filter>
+    </ClInclude>
+    <ClInclude Include="Resolver.h">
+      <Filter>ragebot\resolver\resolver.h</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiAntiAim.h">
+      <Filter>ragebot\resolver\resolver.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>visuals\esp</Filter>
+    </ClInclude>
+    <ClInclude Include="damageindicator.h">
+      <Filter>visuals\damage</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager.h">
+      <Filter>visuals\render</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials.h">
+      <Filter>visuals\render</Filter>
+    </ClInclude>
+    <ClInclude Include="Visuals.h">
+      <Filter>visuals\crosshair</Filter>
+    </ClInclude>
+    <ClInclude Include="hitmarker.h">
+      <Filter>visuals\crosshair</Filter>
+    </ClInclude>
+    <ClInclude Include="GrenadePrediction.h">
+      <Filter>visuals\esp\other</Filter>
+    </ClInclude>
+    <ClInclude Include="GlowManager.h">
+      <Filter>visuals\esp\other</Filter>
+    </ClInclude>
+    <ClInclude Include="DLLMain.h">
+      <Filter>main\dllmain</Filter>
+    </ClInclude>
+    <ClInclude Include="Dumping.h">
+      <Filter>main\dump</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>main\netvar</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVars.h">
+      <Filter>main\netvar</Filter>
+    </ClInclude>
+    <ClInclude Include="INJ\ReflectiveLoader.h">
+      <Filter>main\reflective</Filter>
+    </ClInclude>
+    <ClInclude Include="INJ\ReflectiveDLLInjection.h">
+      <Filter>main\reflective</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>main\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>main\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Chams.h">
+      <Filter>visuals\chams</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiLeak.h">
+      <Filter>main\dump</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>offsets\Entities/interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities.h">
+      <Filter>offsets\Entities/interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>offsets\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>offsets\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineClient.h">
+      <Filter>offsets\engine/crc32</Filter>
+    </ClInclude>
+    <ClInclude Include="CRC32.h">
+      <Filter>offsets\engine/crc32</Filter>
+    </ClInclude>
+    <ClInclude Include="MathFunctions.h">
+      <Filter>offsets\other</Filter>
+    </ClInclude>
+    <ClInclude Include="UTIL Functions.h">
+      <Filter>offsets\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface.h">
+      <Filter>offsets\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Xor.h">
+      <Filter>offsets\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks.h">
+      <Filter>hooks\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Skins.h">
+      <Filter>hooks\skinchanger</Filter>
+    </ClInclude>
+    <ClInclude Include="Proxies.h">
+      <Filter>hooks\skinchanger</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaInfo.h">
+      <Filter>hooks\info</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>hooks\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientRecvProps.h">
+      <Filter>hooks\info</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscDefinitions.h">
+      <Filter>offsets\other</Filter>
+    </ClInclude>
+    <ClInclude Include="gamefunc.h">
+      <Filter>offsets\other</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscClasses.h">
+      <Filter>offsets\other</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscHacks.h">
+      <Filter>misc\mischacks</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonIncludes.h">
+      <Filter>misc\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.hpp">
+      <Filter>misc\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>misc\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="winwindef.h">
+      <Filter>misc\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="bspflags.h">
+      <Filter>offsets\other</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClient.h">
+      <Filter>offsets\other</Filter>
+    </ClInclude>
+    <ClInclude Include="CBulletListener.h">
+      <Filter>visuals\crosshair</Filter>
+    </ClInclude>
+    <ClInclude Include="LegitBot.h">
+      <Filter>legitbot</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="hooks.backup">
+      <Filter>hooks\hooks</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="menu">
+      <UniqueIdentifier>{0a01d570-cfc1-4f97-8ed7-c2c527647fad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\gui.h">
+      <UniqueIdentifier>{c5fe0fbb-b6c0-4f12-badf-9f4ac6b324cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu\gui.cpp">
+      <UniqueIdentifier>{28dbbe03-fedf-4501-a380-e84dbe260da5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ragebot">
+      <UniqueIdentifier>{5fa58cb7-2f21-49a4-9b29-3bc4c41c9ae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ragebot\backtrack">
+      <UniqueIdentifier>{d9854e1f-64af-4ecf-a748-4a54008ad98c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ragebot\backtrack\backtrack.h">
+      <UniqueIdentifier>{638dc052-4c92-4789-9504-e1dbe1541d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ragebot\backtrack\backtrack.cpp">
+      <UniqueIdentifier>{8e4c13cd-1d65-4b41-b334-ffa40e84b996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ragebot\ragebot.cpp">
+      <UniqueIdentifier>{38ae9d3e-fe19-401b-be68-b9b7349c68af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ragebot\resolver">
+      <UniqueIdentifier>{45d2073e-1fa6-48da-a42a-13225eada88a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ragebot\autowall">
+      <UniqueIdentifier>{b47bd4f2-3552-4771-a616-02e9eff41c31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ragebot\resolver\resolver.cpp">
+      <UniqueIdentifier>{ef2cb2d8-0a7b-49ee-aa15-ec1f3ae5c6fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ragebot\resolver\resolver.h">
+      <UniqueIdentifier>{6d6db615-271b-4b5e-80c1-4a2da8965086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="visuals">
+      <UniqueIdentifier>{f9f61406-9581-4c87-82e8-a4bf45681aae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="visuals\esp">
+      <UniqueIdentifier>{74964c97-c9ab-43e6-bcc7-f5a272e9c877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="visuals\damage">
+      <UniqueIdentifier>{b6369e1c-ed72-4ccd-b535-2c32b9e937ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="visuals\render">
+      <UniqueIdentifier>{ab89d4cd-544c-49c4-96a2-4ab08220365f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="visuals\crosshair">
+      <UniqueIdentifier>{f758ea4c-d14c-4652-8048-ca5577bba225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="visuals\esp\other">
+      <UniqueIdentifier>{7c5c9298-c234-46df-8403-1755556e9512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{b8c86add-ba2d-462d-81b3-5094158e1fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\dllmain">
+      <UniqueIdentifier>{9af1f24e-7dbd-46a9-952a-4763e98b98cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\dump">
+      <UniqueIdentifier>{d277ff4c-b218-477a-b3ba-0a573fa5b436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\reflective">
+      <UniqueIdentifier>{b1550d93-bce2-4579-91ed-bd4a7a8110ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\other">
+      <UniqueIdentifier>{6646b9b8-d4f7-4844-9b95-c63b263d9ac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="visuals\chams">
+      <UniqueIdentifier>{33190026-1295-40d5-bc0d-646bd7d004b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="offsets">
+      <UniqueIdentifier>{2134d8c0-1882-478c-8253-37ab4c54ece7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="offsets\Entities/interface">
+      <UniqueIdentifier>{3ff71922-af84-4889-9922-72c6990270fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="offsets\vector">
+      <UniqueIdentifier>{d598d2ac-f705-4735-af2a-25e8c744e916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="offsets\spoofed">
+      <UniqueIdentifier>{463e1301-9a7d-4491-9d0b-c338510a4467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="offsets\engine/crc32">
+      <UniqueIdentifier>{28c3ef73-5897-4171-8a2e-3e901ac4da5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="offsets\other">
+      <UniqueIdentifier>{c434accf-46d2-46da-8ae9-17f878c1037c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooks">
+      <UniqueIdentifier>{3f615cf8-a19d-4720-ab7f-b1300eef5326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooks\hacks">
+      <UniqueIdentifier>{b6dae433-b20f-4f7d-907a-2c46889ccbde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooks\skinchanger">
+      <UniqueIdentifier>{92699a55-88cb-45a2-864c-39debc1aa316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooks\info">
+      <UniqueIdentifier>{9101bbeb-6f14-4696-b64b-9cb59ef870d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooks\hooks">
+      <UniqueIdentifier>{ad45cf85-bc0f-430f-bb1b-28b518f1f2e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc">
+      <UniqueIdentifier>{ae32b4ef-8bed-4908-86d2-4b3a006e48a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc\mischacks">
+      <UniqueIdentifier>{2dc04d48-5366-425e-b6aa-f479833a2645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc\includes">
+      <UniqueIdentifier>{f9cc834a-10fa-4616-91dd-fdb92159128e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="legitbot">
+      <UniqueIdentifier>{3686af1a-40a0-4a1f-80c4-29f16c8d220c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\netvar">
+      <UniqueIdentifier>{032599a2-19e6-4a4f-9fef-99a5bc73e43e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
