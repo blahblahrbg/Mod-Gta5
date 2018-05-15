@@ -1,5 +1,5 @@
 # fuck-ayyware
-a cheat for csgo , it looks like some cheat , *cough cough* "supremacy".
+a cheat for csgo , it has a nice menu.
 
 SS :
 
